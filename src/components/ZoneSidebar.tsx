@@ -266,9 +266,7 @@ export const ZoneSidebar = () => {
             }
 
             const unionized = safeUnion(
-                turf.simplify($questionFinishedMapData, {
-                    tolerance: 0.001,
-                }),
+                $questionFinishedMapData
             );
 
             let circles = places
