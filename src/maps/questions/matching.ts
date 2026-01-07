@@ -74,7 +74,7 @@ export const findMatchingPlaces = async (question: MatchingQuestion) => {
         case "cinema-full":
         case "library-full":
         case "golf_course-full":
-        case "consulate-full":
+        case "diplomatic-full":
         case "park-full": {
             const location = question.type.split("-full")[0] as APILocations;
 
@@ -130,7 +130,7 @@ export const determineMatchingBoundary = _.memoize(
             case "cinema":
             case "library":
             case "golf_course":
-            case "consulate":
+            case "diplomatic":
             case "park":
             case "same-first-letter-station":
             case "same-length-station":
@@ -221,7 +221,7 @@ export const determineMatchingBoundary = _.memoize(
             case "cinema-full":
             case "library-full":
             case "golf_course-full":
-            case "consulate-full":
+            case "diplomatic-full":
             case "park-full":
             case "custom-points": {
                 const data = await findMatchingPlaces(question);
@@ -285,7 +285,7 @@ export const hiderifyMatching = async (question: MatchingQuestion) => {
             "cinema",
             "library",
             "golf_course",
-            "consulate",
+            "diplomatic",
             "park",
         ].includes(question.type)
     ) {

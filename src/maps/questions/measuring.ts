@@ -185,7 +185,7 @@ export const determineMeasuringBoundary = async (
         case "cinema-full":
         case "library-full":
         case "golf_course-full":
-        case "consulate-full":
+        case "diplomatic-full":
         case "park-full": {
             const location = question.type.split("-full")[0] as APILocations;
 
@@ -243,7 +243,7 @@ export const determineMeasuringBoundary = async (
         case "cinema":
         case "library":
         case "golf_course":
-        case "consulate":
+        case "diplomatic":
         case "park":
         case "mcdonalds":
         case "seven11":
@@ -305,7 +305,7 @@ export const hiderifyMeasuring = async (question: MeasuringQuestion) => {
             "cinema",
             "library",
             "golf_course",
-            "consulate",
+            "diplomatic",
             "park",
         ].includes(question.type)
     ) {

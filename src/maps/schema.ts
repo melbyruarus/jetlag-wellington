@@ -112,7 +112,7 @@ const tentacleLocationsOne = z.union([
 
 const apiLocationSchema = z.union([
     z.literal("golf_course"),
-    z.literal("consulate"),
+    z.literal("diplomatic"),
     z.literal("park"),
     tentacleLocationsFifteen,
     tentacleLocationsOne,

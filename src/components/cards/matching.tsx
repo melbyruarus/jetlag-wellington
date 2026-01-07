@@ -132,7 +132,7 @@ export const MatchingQuestionComponent = ({
         case "cinema":
         case "library":
         case "golf_course":
-        case "consulate":
+        case "diplomatic":
         case "park":
             questionSpecific = (
                 <span className="px-2 text-center text-orange-500">
@@ -221,7 +221,7 @@ export const MatchingQuestionComponent = ({
                             data.type === "cinema-full" ||
                             data.type === "library-full" ||
                             data.type === "golf_course-full" ||
-                            data.type === "consulate-full" ||
+                            data.type === "diplomatic-full" ||
                             data.type === "park-full"
                         ) {
                             (data as any).geo = await findMatchingPlaces(data);
@@ -325,7 +325,7 @@ export const MatchingQuestionComponent = ({
                                         data.type === "cinema-full" ||
                                         data.type === "library-full" ||
                                         data.type === "golf_course-full" ||
-                                        data.type === "consulate-full" ||
+                                        data.type === "diplomatic-full" ||
                                         data.type === "park-full"
                                     ) {
                                         (data as any).geo =

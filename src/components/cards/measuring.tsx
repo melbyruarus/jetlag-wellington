@@ -82,7 +82,7 @@ export const MeasuringQuestionComponent = ({
         case "cinema":
         case "library":
         case "golf_course":
-        case "consulate":
+        case "diplomatic":
         case "park":
             questionSpecific = (
                 <span className="px-2 text-center text-orange-500">

@@ -20,7 +20,7 @@ export const ICON_COLORS = {
 };
 
 export const LOCATION_FIRST_TAG: {
-    [key in APILocations]: "amenity" | "tourism" | "leisure" | "diplomatic";
+    [key in APILocations]: "amenity" | "tourism" | "leisure" | "office";
 } = {
     aquarium: "tourism",
     hospital: "amenity",
@@ -30,7 +30,7 @@ export const LOCATION_FIRST_TAG: {
     cinema: "amenity",
     library: "amenity",
     golf_course: "leisure",
-    consulate: "diplomatic",
+    diplomatic: "office",
     park: "leisure",
 };
 
