@@ -21,20 +21,26 @@ export const mapGeoLocation = persistentAtom<OpenStreetMap>(
     "mapGeoLocation",
     {
         geometry: {
-            coordinates: [36.5748441, 139.2394179],
+            coordinates: [-41.25275310000001, 174.7184709414953],
             type: "Point",
         },
         type: "Feature",
         properties: {
             osm_type: "R",
-            osm_id: 382313,
-            extent: [45.7112046, 122.7141754, 20.2145811, 154.205541],
-            country: "Japan",
-            osm_key: "place",
-            countrycode: "JP",
-            osm_value: "country",
-            name: "Japan",
-            type: "country",
+            osm_id: 4266321,
+            osm_key: "boundary",
+            osm_value: "administrative",
+            type: "county",
+            countrycode: "NZ",
+            name: "Wellington City",
+            country: "New Zealand",
+            state: "Wellington",
+            extent: [
+                -41.1435402,
+                174.6131062,
+                -41.3623801,
+                174.8954104
+            ],
         },
     },
     {
@@ -77,7 +83,7 @@ export const questionModified = (..._: any[]) => {
 
 export const leafletMapContext = atom<Map | null>(null);
 
-export const defaultUnit = persistentAtom<Units>("defaultUnit", "miles");
+export const defaultUnit = persistentAtom<Units>("defaultUnit", "kilometers");
 export const highlightTrainLines = persistentAtom<boolean>(
     "highlightTrainLines",
     false,
