@@ -47,6 +47,12 @@ export default defineConfig({
     devToolbar: {
         enabled: false,
     },
-    site: "https://taibeled.github.io",
-    base: "JetLagHideAndSeek",
+    site: "https://game.ios.nz",
+    base: "/",
+    server: {
+        allowedHosts: [
+            'game.ios.nz',
+        ],
+        host: '0.0.0.0',
+    }
 });
