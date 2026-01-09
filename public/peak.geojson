@@ -1,0 +1,414 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-turbo",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2026-01-08T05:17:54Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Goldmine Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7966123,
+            -41.2095422
+          ]
+        },
+        "id": "node/245813171"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mount Victoria"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7943018,
+            -41.296076
+          ]
+        },
+        "id": "node/284021662"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Omega"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8257188,
+            -41.2313423
+          ]
+        },
+        "id": "node/885760606"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Te Ahumairangi Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7641868,
+            -41.2739863
+          ]
+        },
+        "id": "node/915413650"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Johnston Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7390044,
+            -41.273432
+          ]
+        },
+        "id": "node/1024362860"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Wright Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7399726,
+            -41.2961053
+          ]
+        },
+        "id": "node/1024388985"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Hawkins Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7263465,
+            -41.3291685
+          ]
+        },
+        "id": "node/3218328781"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mākara Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7072649,
+            -41.2894728
+          ]
+        },
+        "id": "node/3218328782"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Kaukau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7779394,
+            -41.2314837
+          ]
+        },
+        "id": "node/3659565906"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "The Crows Nest"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.76,
+            -41.244029
+          ]
+        },
+        "id": "node/3792231307"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mount Wai-ariki"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.6605907,
+            -41.2956215
+          ]
+        },
+        "id": "node/3819684485"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Terawhiti Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.6278559,
+            -41.2766446
+          ]
+        },
+        "id": "node/4933540161"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Far Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7308505,
+            -41.2233631
+          ]
+        },
+        "id": "node/4933540162"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Outlook Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.6458825,
+            -41.3108392
+          ]
+        },
+        "id": "node/4933540163"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Quartz Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.6909028,
+            -41.2508086
+          ]
+        },
+        "id": "node/4933540164"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "British Peak"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7356128,
+            -41.25821
+          ]
+        },
+        "id": "node/4933540165"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Te Kopahou"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7111975,
+            -41.3411327
+          ]
+        },
+        "id": "node/4933540166"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mill Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7346271,
+            -41.2317872
+          ]
+        },
+        "id": "node/4933540167"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "White Rock Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.680131,
+            -41.2688407
+          ]
+        },
+        "id": "node/4933540169"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Middle Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7200788,
+            -41.2357714
+          ]
+        },
+        "id": "node/4933540170"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mount Albert"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7852766,
+            -41.3267184
+          ]
+        },
+        "id": 20
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mount Crawford"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8284977,
+            -41.2944464
+          ]
+        },
+        "id": "node/5714402657"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Ōhau Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.6420968,
+            -41.2462357
+          ]
+        },
+        "id": "node/6778470066"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mount Alfred"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7885628,
+            -41.3033759
+          ]
+        },
+        "id": "node/7183831721"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Ōtari Peak"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7482272,
+            -41.2495205
+          ]
+        },
+        "id": "node/10040867960"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Marshall"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.818655,
+            -41.190126
+          ]
+        },
+        "id": "node/10651110041"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Totara Ridge"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.792534,
+            -41.215724
+          ]
+        },
+        "id": "node/10651110042"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Upper Ngauranga"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.810537,
+            -41.235453
+          ]
+        },
+        "id": "node/10651110043"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Beacon Hill"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.828495,
+            -41.328931
+          ]
+        },
+        "id": "node/10651110045"
+      }
+    ]
+  }

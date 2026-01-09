@@ -1,0 +1,83 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7798775,
+            -41.3019041
+          ]
+        },
+        "properties": {
+          "name": "Accident and Urgent Medical Centre"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7804116,
+            -41.3089205
+          ]
+        },
+        "properties": {
+          "name": "Wellington Regional Hospital"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7755353,
+            -41.3094343
+          ]
+        },
+        "properties": {
+          "name": "Southern Cross Wellington Hospital"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7790526,
+            -41.3170962
+          ]
+        },
+        "properties": {
+          "name": "Wakefield Hospital"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7668689,
+            -41.2592063
+          ]
+        },
+        "properties": {
+          "name": "Bowen Hospital"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8234415,
+            -41.1837146
+          ]
+        },
+        "properties": {
+          "name": "Longview Rest Home and Hospital"
+        }
+      }
+    ]
+  }

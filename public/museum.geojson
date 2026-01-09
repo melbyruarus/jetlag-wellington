@@ -1,0 +1,187 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.779385,
+            -41.300047
+          ]
+        },
+        "properties": {
+          "name": "Cricket Museum"
+        },
+        "id": 0
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7753305,
+            -41.2789538
+          ]
+        },
+        "properties": {
+          "name": "Reserve Bank Museum"
+        },
+        "id": 1
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7723492,
+            -41.2971887
+          ]
+        },
+        "properties": {
+          "name": "Holocaust Centre of New Zealand"
+        },
+        "id": 2
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7686877,
+            -41.2886795
+          ]
+        },
+        "properties": {
+          "name": "Victoria University Classics Museum"
+        },
+        "id": 3
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7671563,
+            -41.2843239
+          ]
+        },
+        "properties": {
+          "name": "Space Place"
+        },
+        "id": 4
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7782021,
+            -41.2835817
+          ]
+        },
+        "properties": {
+          "name": "New Zealand Portrait Gallery"
+        },
+        "id": 5
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7819889,
+            -41.2903297
+          ]
+        },
+        "properties": {
+          "name": "Museum of New Zealand Te Papa Tongarewa"
+        },
+        "id": 6
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7781313,
+            -41.2853109
+          ]
+        },
+        "properties": {
+          "name": "Wellington Museum"
+        },
+        "id": 7
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7674482,
+            -41.2852451
+          ]
+        },
+        "properties": {
+          "name": "Cable Car Museum"
+        },
+        "id": 8
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7699613,
+            -41.2992964
+          ]
+        },
+        "properties": {
+          "name": "Nairn Street Colonial Cottage"
+        },
+        "id": 9
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7798512,
+            -41.2701584
+          ]
+        },
+        "properties": {
+          "name": "Katherine Mansfield House and Garden"
+        },
+        "id": 10
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7743138,
+            -41.2794629
+          ]
+        },
+        "properties": {
+          "name": "Bolton St Cemetery Chapel"
+        },
+        "id": 11
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7791644,
+            -41.2983234
+          ]
+        },
+        "properties": {
+          "name": "Museum of New Zealand Te Papa Tongarewa Archives"
+        },
+        "id": 12
+      }
+    ]
+  }

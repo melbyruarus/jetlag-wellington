@@ -1,0 +1,70 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8142408,
+            -41.330529
+          ]
+        },
+        "properties": {
+          "name": "Miramar Golf Course"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7703526,
+            -41.3250528
+          ]
+        },
+        "properties": {
+          "name": "Berhampore Municipal Golf Course"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.777457,
+            -41.3265865
+          ]
+        },
+        "properties": {
+          "name": "Berhampore Municipal Golf Course"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.6863937,
+            -41.2899307
+          ]
+        },
+        "properties": {
+          "name": "Karori Golf Club"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7868946,
+            -41.1946576
+          ]
+        },
+        "properties": {
+          "name": "Ohariu Valley Golf Course"
+        }
+      }
+    ]
+  }

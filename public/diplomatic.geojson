@@ -1,0 +1,694 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7509461,
+            -41.2871565
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Russian Federation"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8014227,
+            -41.2485657
+          ]
+        },
+        "properties": {
+          "name": "High Commission for Pakistan"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8017131,
+            -41.2488781
+          ]
+        },
+        "properties": {
+          "name": "Apostolic Nunciature of The Holy See"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7782017,
+            -41.2821475
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Switzerland"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7781618,
+            -41.2691825
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Italy"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7783952,
+            -41.2822117
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Brazil"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7760237,
+            -41.2829667
+          ]
+        },
+        "properties": {
+          "name": "South African High Commission"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7630667,
+            -41.2885372
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Indonesia"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7778418,
+            -41.2812917
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Kingdom of The Netherlands"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7777572,
+            -41.282577
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the United Arab Emirates"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7750045,
+            -41.2835152
+          ]
+        },
+        "properties": {
+          "name": "High Commission of Canada"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7758272,
+            -41.288687
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Ireland"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7792163,
+            -41.2749231
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Argentine Republic"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7789657,
+            -41.2749156
+          ]
+        },
+        "properties": {
+          "name": "Turkish Embassy"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7812765,
+            -41.2708199
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Democratic Republic of Timor-Leste"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7778477,
+            -41.2871537
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Chile"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7746317,
+            -41.288521
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Japan"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7762211,
+            -41.2850925
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Mexico"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7776726,
+            -41.2871037
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Arab Republic of Egypt"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7761978,
+            -41.2803117
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Hungary"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7759743,
+            -41.2830551
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Israel"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7783184,
+            -41.2821781
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Kuwait"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7791001,
+            -41.2749189
+          ]
+        },
+        "properties": {
+          "name": "High Commission of the Solomon Islands"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7746259,
+            -41.2820612
+          ]
+        },
+        "properties": {
+          "name": "High commission of Tuvalu"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7745269,
+            -41.2820487
+          ]
+        },
+        "properties": {
+          "name": "High commission of Vanuatu"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7747261,
+            -41.2858551
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Socialist Republic of Viet Nam"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.776888,
+            -41.2830279
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Republic of Poland"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7759178,
+            -41.2876148
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Peru"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7748552,
+            -41.2814172
+          ]
+        },
+        "properties": {
+          "name": "Delegation of the European Union"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7749395,
+            -41.2766432
+          ]
+        },
+        "properties": {
+          "name": "British High Commission"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7791145,
+            -41.2735046
+          ]
+        },
+        "properties": {
+          "name": "Consulate General of the People's Republic of China"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7787518,
+            -41.2727418
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the United States of America"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7722218,
+            -41.2943664
+          ]
+        },
+        "properties": {
+          "name": "Papua New Guinea High Commission"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.780937,
+            -41.2714106
+          ]
+        },
+        "properties": {
+          "name": "Australian High Commission"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7674455,
+            -41.2800232
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the People's Republic of China"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7801688,
+            -41.2708584
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Federal Republic of Germany"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7795752,
+            -41.2757147
+          ]
+        },
+        "properties": {
+          "name": "High Commission of Fiji"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7655088,
+            -41.2886422
+          ]
+        },
+        "properties": {
+          "name": "Consulate of the People's Republic of Bangladesh"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8021265,
+            -41.2981918
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Islamic Republic of Iran"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7564148,
+            -41.2897308
+          ]
+        },
+        "properties": {
+          "name": "Royal Danish Consulate"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7665899,
+            -41.3031721
+          ]
+        },
+        "properties": {
+          "name": "High Commission for Malaysia"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7812244,
+            -41.2726085
+          ]
+        },
+        "properties": {
+          "name": "Embassy of the Republic of the Philippines"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7781903,
+            -41.2752108
+          ]
+        },
+        "properties": {
+          "name": "Royal Thai Embassy"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7767564,
+            -41.2767612
+          ]
+        },
+        "properties": {
+          "name": "Economic and Commercial Office of the Embassy of China"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7807515,
+            -41.2730294
+          ]
+        },
+        "properties": {
+          "name": "Residence of the Ambassador of the French Republic"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7792957,
+            -41.272157
+          ]
+        },
+        "properties": {
+          "name": "Niue High Commission"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7912043,
+            -41.2422584
+          ]
+        },
+        "properties": {
+          "name": "Embassy of Cuba"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7861145,
+            -41.2546362
+          ]
+        },
+        "properties": {
+          "name": "High Commission of the Republic of Singapore"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7898144,
+            -41.2570719
+          ]
+        },
+        "properties": {
+          "name": "Residence of the Ambassador of the Commonwealth of Australia"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7895198,
+            -41.2562492
+          ]
+        },
+        "properties": {
+          "name": "Residence of the Ambassador of Japan"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7787553,
+            -41.275235
+          ]
+        },
+        "properties": {
+          "name": "High Commision of the Republic of India"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7715143,
+            -41.2825497
+          ]
+        },
+        "properties": {
+          "name": "Samoa High Commission"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.780149,
+            -41.275691
+          ]
+        },
+        "properties": {
+          "name": "High Commision of the Cook Islands"
+        }
+      }
+    ]
+  }

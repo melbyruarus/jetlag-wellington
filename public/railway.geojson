@@ -1,0 +1,278 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7664938,
+            -41.2550456
+          ]
+        },
+        "properties": {
+          "name": "Crofton Downs"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7843289,
+            -41.2467985
+          ]
+        },
+        "properties": {
+          "name": "Simla Crescent"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7743083,
+            -41.2464949
+          ]
+        },
+        "properties": {
+          "name": "Awarua Street"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7887571,
+            -41.2460232
+          ]
+        },
+        "properties": {
+          "name": "Box Hill"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8017759,
+            -41.2322133
+          ]
+        },
+        "properties": {
+          "name": "Raroa"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8271953,
+            -41.1749785
+          ]
+        },
+        "properties": {
+          "name": "Redwood (north)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8269547,
+            -41.1763496
+          ]
+        },
+        "properties": {
+          "name": "Redwood (south)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.828379,
+            -41.1852247
+          ]
+        },
+        "properties": {
+          "name": "Takapu Road"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8320426,
+            -41.1589706
+          ]
+        },
+        "properties": {
+          "name": "Linden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8136197,
+            -41.2486331
+          ]
+        },
+        "properties": {
+          "name": "Ngauranga"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7748077,
+            -41.2842463
+          ]
+        },
+        "properties": {
+          "name": "Lambton"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.77124,
+            -41.2848055
+          ]
+        },
+        "properties": {
+          "name": "Talavera"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8047917,
+            -41.2233407
+          ]
+        },
+        "properties": {
+          "name": "Johnsonville"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7803944,
+            -41.278864
+          ]
+        },
+        "properties": {
+          "name": "Wellington"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7715302,
+            -41.2513117
+          ]
+        },
+        "properties": {
+          "name": "Ngaio"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7931754,
+            -41.2430976
+          ]
+        },
+        "properties": {
+          "name": "Khandallah"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8284164,
+            -41.1692058
+          ]
+        },
+        "properties": {
+          "name": "Tawa"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7677109,
+            -41.28534
+          ]
+        },
+        "properties": {
+          "name": "Kelburn"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.769578,
+            -41.2850904
+          ]
+        },
+        "properties": {
+          "name": "Salamanca"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7729703,
+            -41.2845037
+          ]
+        },
+        "properties": {
+          "name": "Clifton"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.827075,
+            -41.1756641
+          ]
+        },
+        "properties": {
+          "name": "Redwood"
+        }
+      }
+    ]
+  }

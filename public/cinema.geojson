@@ -1,0 +1,70 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7634702,
+            -41.3058382
+          ]
+        },
+        "properties": {
+          "name": "Penthouse Cinema"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7725119,
+            -41.3370854
+          ]
+        },
+        "properties": {
+          "name": "Empire Cinema & Eatery"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8162766,
+            -41.3158392
+          ]
+        },
+        "properties": {
+          "name": "Roxy Cinema"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7752052,
+            -41.2961988
+          ]
+        },
+        "properties": {
+          "name": "Lighthouse Cuba"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7843406,
+            -41.2943399
+          ]
+        },
+        "properties": {
+          "name": "Embassy Theatre"
+        }
+      }
+    ]
+  }

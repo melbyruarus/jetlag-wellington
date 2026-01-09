@@ -1,0 +1,642 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7681223,
+            -41.2823236
+          ]
+        },
+        "properties": {
+          "name": "Remembrance Ridge"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.779491,
+            -41.306227
+          ]
+        },
+        "properties": {
+          "name": "Kaicycle"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7412375,
+            -41.2776705
+          ]
+        },
+        "properties": {
+          "name": "Johnston Hill Scenic Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7677453,
+            -41.2893625
+          ]
+        },
+        "properties": {
+          "name": "Vertical Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7985379,
+            -41.2051787
+          ]
+        },
+        "properties": {
+          "name": "Victoria University of Wellington Native Forest Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7769742,
+            -41.2984325
+          ]
+        },
+        "properties": {
+          "name": "Ng\u0101 Tapuwae o te K\u0101hui Maunga"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7777663,
+            -41.2986771
+          ]
+        },
+        "properties": {
+          "name": "Ng\u0101 Tapuwae o te K\u0101hui Maunga"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7665815,
+            -41.2839985
+          ]
+        },
+        "properties": {
+          "name": "Australian Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7694436,
+            -41.2805613
+          ]
+        },
+        "properties": {
+          "name": "Lady Norwood Rose Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7661336,
+            -41.2825335
+          ]
+        },
+        "properties": {
+          "name": "Wellington Botanic Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7685894,
+            -41.2802005
+          ]
+        },
+        "properties": {
+          "name": "The Herb Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7691307,
+            -41.2808699
+          ]
+        },
+        "properties": {
+          "name": "Begonia House"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7699308,
+            -41.2720432
+          ]
+        },
+        "properties": {
+          "name": "Te Ahumairangi Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7775882,
+            -41.2768057
+          ]
+        },
+        "properties": {
+          "name": "Ron Jarden Memorial Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.789025,
+            -41.3200916
+          ]
+        },
+        "properties": {
+          "name": "Truby King Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7660768,
+            -41.28286
+          ]
+        },
+        "properties": {
+          "name": "Discovery Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7675898,
+            -41.3153892
+          ]
+        },
+        "properties": {
+          "name": "Hoggard Street Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8219349,
+            -41.21528
+          ]
+        },
+        "properties": {
+          "name": "Northern Community Gardens"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7795062,
+            -41.3061039
+          ]
+        },
+        "properties": {
+          "name": "Kaicycle"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7897262,
+            -41.2973035
+          ]
+        },
+        "properties": {
+          "name": "Innermost Gardens"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7604258,
+            -41.2935796
+          ]
+        },
+        "properties": {
+          "name": "Holloway community garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8264606,
+            -41.1715733
+          ]
+        },
+        "properties": {
+          "name": "Tawa Community Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7665629,
+            -41.28291
+          ]
+        },
+        "properties": {
+          "name": "Succulent garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7698893,
+            -41.2993221
+          ]
+        },
+        "properties": {
+          "name": "Nairn Street Heritage Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7738082,
+            -41.2879057
+          ]
+        },
+        "properties": {
+          "name": "Phillip Cotterell Memorial Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7759578,
+            -41.279026
+          ]
+        },
+        "properties": {
+          "name": "Former Bowen Hospital Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.771561,
+            -41.2878515
+          ]
+        },
+        "properties": {
+          "name": "Kumutoto Community Orchard"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7717945,
+            -41.2909208
+          ]
+        },
+        "properties": {
+          "name": "Terrace Tunnel Community Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7179875,
+            -41.2875113
+          ]
+        },
+        "properties": {
+          "name": "Thurleigh Grove Community Orchard"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.805185,
+            -41.3201428
+          ]
+        },
+        "properties": {
+          "name": "Wellington International Airport Urban Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7651019,
+            -41.2823945
+          ]
+        },
+        "properties": {
+          "name": "Fairy Garden"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7547656,
+            -41.2672183
+          ]
+        },
+        "properties": {
+          "name": "\u014ctari-Wilton\u2019s Bush"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7340102,
+            -41.2962518
+          ]
+        },
+        "properties": {
+          "name": "Wrights Hill Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7413972,
+            -41.275644
+          ]
+        },
+        "properties": {
+          "name": "Johnston Hill Scenic Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7106398,
+            -41.2916728
+          ]
+        },
+        "properties": {
+          "name": "M\u0101kara Peak Mountain Bike Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7561884,
+            -41.2994778
+          ]
+        },
+        "properties": {
+          "name": "Waimapihi Reseve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7343378,
+            -41.3452789
+          ]
+        },
+        "properties": {
+          "name": "Te Kopahou Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7418432,
+            -41.2678149
+          ]
+        },
+        "properties": {
+          "name": "\u014ctari Farm Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.743849,
+            -41.2515133
+          ]
+        },
+        "properties": {
+          "name": "Kilmister Block"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7323019,
+            -41.2910424
+          ]
+        },
+        "properties": {
+          "name": "Burrows Avenue Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7650203,
+            -41.2776009
+          ]
+        },
+        "properties": {
+          "name": "Stellin Memorial Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7627574,
+            -41.2927501
+          ]
+        },
+        "properties": {
+          "name": "Pukeh\u012bnau (Kiwifoot) Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7624242,
+            -41.2384695
+          ]
+        },
+        "properties": {
+          "name": "Awarua Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7628342,
+            -41.2513672
+          ]
+        },
+        "properties": {
+          "name": "Huntleigh Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7846774,
+            -41.2337992
+          ]
+        },
+        "properties": {
+          "name": "Khandallah Park and Johnsonville Park"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7815236,
+            -41.2535061
+          ]
+        },
+        "properties": {
+          "name": "Odell Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7225436,
+            -41.3091493
+          ]
+        },
+        "properties": {
+          "name": "Long Gully Bush Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.755865,
+            -41.2596525
+          ]
+        },
+        "properties": {
+          "name": "Chartwell Reserve"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7751118,
+            -41.2576303
+          ]
+        },
+        "properties": {
+          "name": "Trelissick Park"
+        }
+      }
+    ]
+  }

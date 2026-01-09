@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Wellington Zoo"
+        },
+        "geometry": {
+          "coordinates": [
+            174.78454596905567,
+            -41.319550375734856
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name":"Zealandia"},
+        "geometry": {
+          "coordinates": [
+            174.75343437214264,
+            -41.29083787860809
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }

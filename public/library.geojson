@@ -1,0 +1,278 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7654853,
+            -41.3052464
+          ]
+        },
+        "properties": {
+          "name": "Brooklyn Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7687985,
+            -41.2892568
+          ]
+        },
+        "properties": {
+          "name": "VUW - Central Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.816062,
+            -41.3164798
+          ]
+        },
+        "properties": {
+          "name": "Miramar Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7948494,
+            -41.316489
+          ]
+        },
+        "properties": {
+          "name": "Ruth Gotlieb Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7787116,
+            -41.27645
+          ]
+        },
+        "properties": {
+          "name": "He Matapihi Molesworth Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.773561,
+            -41.3355009
+          ]
+        },
+        "properties": {
+          "name": "Island Bay Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7908066,
+            -41.2467686
+          ]
+        },
+        "properties": {
+          "name": "Khandallah Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8048436,
+            -41.2228005
+          ]
+        },
+        "properties": {
+          "name": "Johnsonville Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7776574,
+            -41.2796445
+          ]
+        },
+        "properties": {
+          "name": "VUW Law Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7761765,
+            -41.2835802
+          ]
+        },
+        "properties": {
+          "name": "Te Awe Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7685917,
+            -41.2869983
+          ]
+        },
+        "properties": {
+          "name": "Ramsey House Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7784242,
+            -41.2766213
+          ]
+        },
+        "properties": {
+          "name": "National Library of New Zealand"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7764724,
+            -41.2772114
+          ]
+        },
+        "properties": {
+          "name": "Parliamentary Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7767823,
+            -41.288189
+          ]
+        },
+        "properties": {
+          "name": "Wellington Central Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7766654,
+            -41.2627389
+          ]
+        },
+        "properties": {
+          "name": "Wadestown Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7735076,
+            -41.2496937
+          ]
+        },
+        "properties": {
+          "name": "Cummings Park (Ngaio) Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.8251625,
+            -41.1711007
+          ]
+        },
+        "properties": {
+          "name": "Mervyn Kemp (Tawa) Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7805738,
+            -41.3134046
+          ]
+        },
+        "properties": {
+          "name": "Newtown Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.737578,
+            -41.2848913
+          ]
+        },
+        "properties": {
+          "name": "Karori Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7755803,
+            -41.302754
+          ]
+        },
+        "properties": {
+          "name": "Massey University Library"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.7964437,
+            -41.230237
+          ]
+        },
+        "properties": {
+          "name": "Onslow Library"
+        }
+      }
+    ]
+  }
