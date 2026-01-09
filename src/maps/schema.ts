@@ -216,7 +216,7 @@ const ordinaryMatchingQuestionSchema = baseMatchingQuestionSchema.extend({
                 .literal("golf_course-full")
                 .describe("Golf Course Question (Small+Medium Games)"),
             z
-                .literal("consulate-full")
+                .literal("diplomatic-full")
                 .describe("Foreign Consulate Question (Small+Medium Games)"),
             z
                 .literal("park-full")
@@ -258,7 +258,7 @@ const homeGameMatchingQuestionsSchema = baseMatchingQuestionSchema.extend({
         z.literal("cinema").describe("Cinema Question"),
         z.literal("library").describe("Library Question"),
         z.literal("golf_course").describe("Golf Course Question"),
-        z.literal("consulate").describe("Foreign Consulate Question"),
+        z.literal("diplomatic").describe("Foreign Consulate Question"),
         z.literal("park").describe("Park Question"),
     ]),
 });
@@ -333,7 +333,7 @@ const ordinaryMeasuringQuestionSchema = baseMeasuringQuestionSchema.extend({
                 .literal("golf_course-full")
                 .describe("Golf Course Question (Small+Medium Games)"),
             z
-                .literal("consulate-full")
+                .literal("diplomatic-full")
                 .describe("Foreign Consulate Question (Small+Medium Games)"),
             z
                 .literal("park-full")
@@ -360,7 +360,7 @@ const homeGameMeasuringQuestionsSchema = baseMeasuringQuestionSchema.extend({
         z.literal("cinema").describe("Cinema Question"),
         z.literal("library").describe("Library Question"),
         z.literal("golf_course").describe("Golf Course Question"),
-        z.literal("consulate").describe("Foreign Consulate Question"),
+        z.literal("diplomatic").describe("Foreign Consulate Question"),
         z.literal("park").describe("Park Question"),
     ]),
 });
