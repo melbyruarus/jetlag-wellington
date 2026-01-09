@@ -1,5 +1,11 @@
 import * as turf from "@turf/turf";
-import type { Feature, MultiPolygon } from "geojson";
+import type {
+    Feature,
+    FeatureCollection,
+    MultiPolygon,
+    Point,
+    Polygon,
+} from "geojson";
 import _ from "lodash";
 import osmtogeojson from "osmtogeojson";
 import { toast } from "react-toastify";
@@ -11,6 +17,7 @@ import {
     polyGeoJSON,
     trainStations,
 } from "@/lib/context";
+import { joinUrlPath } from "@/lib/utils";
 import {
     fetchCoastline,
     findPlacesInZone,
@@ -80,6 +87,69 @@ const bboxExtension = (
         buffered[2] + originalDeltaLng,
         buffered[3] + originalDeltaLat,
     ];
+};
+
+export const loadStaticMeasuringPlaces = async (question: MeasuringQuestion) => {
+    const questionType = question.type as string;
+    if (questionType.endsWith("-full")) {
+        const location = questionType.split("-full")[0];
+        const filename = `${location}.geojson`;
+        
+        const response = await fetch(
+            joinUrlPath(import.meta.env.BASE_URL, filename),
+        );
+        const geojson: FeatureCollection<Point> = await response.json();
+
+        const points = geojson.features
+            .filter((feature) => feature.geometry.type === "Point")
+            .map((feature) => {
+                const [lng, lat] = feature.geometry.coordinates;
+                return turf.point([lng, lat]);
+            });
+
+        if (points.length === 0) {
+            return [turf.multiPolygon([])];
+        }
+
+        return [
+            turf.combine(turf.featureCollection(points)).features[0],
+        ];
+    }
+
+    return null;
+};
+
+export const loadStaticPolygonGeometries = async (
+    filename: string,
+): Promise<Feature<Polygon | MultiPolygon> | null> => {
+    const response = await fetch(
+        joinUrlPath(import.meta.env.BASE_URL, filename),
+    );
+    const geojson: FeatureCollection = await response.json();
+
+    // Filter for Polygon/MultiPolygon geometries
+    const polygons = geojson.features?.filter(
+        (feature) =>
+            feature &&
+            feature.geometry &&
+            (feature.geometry.type === "Polygon" ||
+            feature.geometry.type === "MultiPolygon"),
+    ) || [];
+
+    if (polygons.length === 0) {
+        return null;
+    }
+
+    // Combine all polygon features into a single MultiPolygon
+    const combined = turf.combine(
+        turf.featureCollection(polygons as Feature<Polygon | MultiPolygon>[]),
+    );
+
+    if (combined.features.length > 0) {
+        return combined.features[0] as Feature<Polygon | MultiPolygon>;
+    }
+
+    return null;
 };
 
 export const determineMeasuringBoundary = async (
@@ -186,49 +256,57 @@ export const determineMeasuringBoundary = async (
         case "library-full":
         case "golf_course-full":
         case "diplomatic-full":
-        case "park-full": {
-            const location = question.type.split("-full")[0] as APILocations;
+        case "park-full":
+        case "peak-full":
+        case "railway-full": {
+            const staticData = await loadStaticMeasuringPlaces(question);
+            if (staticData !== null) {
+                return staticData;
+            }
+            toast.error(
+                "No static data found for this question."
+            );
+            return [turf.multiPolygon([])];
+        }
+        case "wards-full": {
+            const wardsPolygon = await loadStaticPolygonGeometries("wards.geojson");
+            if (wardsPolygon === null) {
+                toast.error("No static data found for this question.");
+                return [turf.multiPolygon([])];
+            }
 
-            const data = await findPlacesInZone(
-                `[${LOCATION_FIRST_TAG[location]}=${location}]`,
-                `Finding ${prettifyLocation(location, true).toLowerCase()}...`,
-                "nwr",
-                "center",
-                [],
-                60,
+            // Calculate distance to nearest edge and buffer the polygon, similar to coastline
+            const distanceToWards = turf.pointToPolygonDistance(
+                turf.point([question.lng, question.lat]),
+                wardsPolygon,
+                {
+                    units: "miles",
+                    method: "geodesic",
+                },
             );
 
-            if (data.remark && data.remark.startsWith("runtime error")) {
-                toast.error(
-                    `Error finding ${prettifyLocation(
-                        location,
-                        true,
-                    ).toLowerCase()}. Please enable hiding zone mode and switch to the Large Game variation of this question.`,
-                );
-                return [turf.multiPolygon([])];
-            }
-
-            if (data.elements.length >= 1000) {
-                toast.error(
-                    `Too many ${prettifyLocation(
-                        location,
-                        true,
-                    ).toLowerCase()} found (${data.elements.length}). Please enable hiding zone mode and switch to the Large Game variation of this question.`,
-                );
-                return [turf.multiPolygon([])];
-            }
-
             return [
-                turf.combine(
-                    turf.featureCollection(
-                        data.elements.map((x: any) =>
-                            turf.point([
-                                x.center ? x.center.lon : x.lon,
-                                x.center ? x.center.lat : x.lat,
-                            ]),
-                        ),
-                    ),
-                ).features[0],
+                turf.difference(
+                    turf.featureCollection([
+                        turf.bboxPolygon(bBox),
+                        turf.buffer(
+                            turf.bboxClip(
+                                wardsPolygon,
+                                bBox
+                                    ? bboxExtension(
+                                          bBox as any,
+                                          distanceToWards,
+                                      )
+                                    : [-180, -90, 180, 90],
+                            ),
+                            distanceToWards,
+                            {
+                                units: "miles",
+                                steps: 64,
+                            },
+                        )!,
+                    ]),
+                )!,
             ];
         }
         case "custom-measure":

@@ -292,45 +292,39 @@ const ordinaryMeasuringQuestionSchema = baseMeasuringQuestionSchema.extend({
     type: z
         .union([
             z.literal("coastline").describe("Coastline Question"),
-            z
-                .literal("airport")
-                .describe("Commercial Airport In Zone Question"),
-            z
-                .literal("city")
-                .describe("Major City (1,000,000+ people) Question"),
-            z
-                .literal("highspeed-measure-shinkansen")
-                .describe("High-Speed Rail Question"),
-            z
-                .literal("aquarium-full")
-                .describe("Aquarium Question (Small+Medium Games)"),
-            z.literal("zoo-full").describe("Zoo Question (Small+Medium Games)"),
-            z
-                .literal("theme_park-full")
-                .describe("Theme Park Question (Small+Medium Games)"),
+            z.literal("zoo-full").describe("Zoo Question"),
             z
                 .literal("museum-full")
-                .describe("Museum Question (Small+Medium Games)"),
+                .describe("Museum Question"),
             z
                 .literal("hospital-full")
-                .describe("Hospital Question (Small+Medium Games)"),
+                .describe("Hospital Question"),
             z
                 .literal("cinema-full")
-                .describe("Cinema Question (Small+Medium Games)"),
+                .describe("Cinema Question"),
             z
                 .literal("library-full")
-                .describe("Library Question (Small+Medium Games)"),
+                .describe("Library Question"),
             z
                 .literal("golf_course-full")
-                .describe("Golf Course Question (Small+Medium Games)"),
+                .describe("Golf Course Question"),
             z
                 .literal("diplomatic-full")
-                .describe("Foreign Consulate Question (Small+Medium Games)"),
+                .describe("Foreign Consulate Question"),
             z
                 .literal("park-full")
-                .describe("Park Question (Small+Medium Games)"),
+                .describe("Park Question"),
+            z
+                .literal("peak-full")
+                .describe("Mountain Question"),
+            z
+                .literal("railway-full")
+                .describe("Railway Question"),
+            z
+                .literal("wards-full")
+                .describe("Council Wards Question"),
         ])
-        .default("coastline"),
+        .default("museum-full"),
 });
 
 const hidingZoneMeasuringQuestionsSchema = baseMeasuringQuestionSchema.extend({
@@ -364,8 +358,6 @@ const customMeasuringQuestionSchema = baseMeasuringQuestionSchema.extend({
 export const measuringQuestionSchema = z.union([
     ordinaryMeasuringQuestionSchema.describe(NO_GROUP),
     customMeasuringQuestionSchema.describe(NO_GROUP),
-    hidingZoneMeasuringQuestionsSchema.describe("Hiding Zone Mode"),
-    homeGameMeasuringQuestionsSchema.describe("Hiding Zone Mode"),
 ]);
 
 export const questionSchema = z.union([
