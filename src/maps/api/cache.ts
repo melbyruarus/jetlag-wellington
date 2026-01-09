@@ -35,7 +35,10 @@ export const cacheFetch = async (
             return toast.promise(
                 async () => {
                     const response = await fetch(url);
-                    await cache.put(url, response.clone());
+                    // Only cache successful responses (200-299), not errors
+                    if (response.ok) {
+                        await cache.put(url, response.clone());
+                    }
                     return response;
                 },
                 {
@@ -45,7 +48,10 @@ export const cacheFetch = async (
         }
 
         const response = await fetch(url);
-        await cache.put(url, response.clone());
+        // Only cache successful responses (200-299), not errors
+        if (response.ok) {
+            await cache.put(url, response.clone());
+        }
         return response;
     } catch (e) {
         console.log(e); // Probably a caches not supported error

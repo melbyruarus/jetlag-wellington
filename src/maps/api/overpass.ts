@@ -32,6 +32,14 @@ export const getOverpassData = async (
         loadingText,
         cacheType,
     );
+    
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(
+            `Overpass API error: ${response.status} ${response.statusText}. ${errorText.substring(0, 200)}`
+        );
+    }
+    
     const data = await response.json();
     return data;
 };
