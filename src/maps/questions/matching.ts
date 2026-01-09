@@ -260,6 +260,49 @@ export const determineMatchingBoundary = _.memoize(
                 }
                 break;
             }
+            case "wards-full": {
+                // Load wards polygons and find which ward contains the question point
+                try {
+                    const response = await fetch(
+                        joinUrlPath(import.meta.env.BASE_URL, "wards.geojson"),
+                    );
+                    
+                    if (!response.ok) {
+                        toast.error(`Failed to load wards data: ${response.statusText}`);
+                        throw new Error("Failed to load wards data");
+                    }
+                    
+                    const geojson: FeatureCollection = await response.json();
+
+                    const point = turf.point([question.lng, question.lat]);
+                    const matchingWards = geojson.features.filter(
+                        (feature) =>
+                            feature &&
+                            feature.geometry &&
+                            (feature.geometry.type === "Polygon" ||
+                            feature.geometry.type === "MultiPolygon") &&
+                            turf.booleanPointInPolygon(
+                                point,
+                                feature as Feature<Polygon | MultiPolygon>,
+                            ),
+                    );
+
+                    if (matchingWards.length > 0) {
+                        // Use the first matching ward as the boundary
+                        boundary = matchingWards[0] as Feature<Polygon | MultiPolygon>;
+                    } else {
+                        toast.error("No ward found for this location");
+                        throw new Error("No ward found");
+                    }
+                } catch (error) {
+                    if (error instanceof Error && error.message === "No ward found") {
+                        throw error; // Re-throw the "No ward found" error
+                    }
+                    toast.error(`Error loading wards data: ${error instanceof Error ? error.message : String(error)}`);
+                    throw error;
+                }
+                break;
+            }
         }
 
         return boundary;

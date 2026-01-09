@@ -215,6 +215,9 @@ const ordinaryMatchingQuestionSchema = baseMatchingQuestionSchema.extend({
             z
                 .literal("railway-full")
                 .describe("Railway Question"),
+            z
+                .literal("wards-full")
+                .describe("Council Wards Question"),
         ])
         .default("zoo-full"),
 });
