@@ -10,6 +10,31 @@ export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
 }
 
+/**
+ * Joins URL path segments using the standard URL API.
+ * @param base - The base URL path (e.g., "/" or "" or "/base")
+ * @param ...paths - Path segments to join
+ * @returns A properly joined URL path
+ * @example
+ * joinUrlPath("", "file.json") // "/file.json"
+ * joinUrlPath("/", "file.json") // "/file.json"
+ * joinUrlPath("/base", "file.json") // "/base/file.json"
+ */
+export function joinUrlPath(base: string, ...paths: string[]): string {
+    // Use a dummy base URL to leverage the standard URL API for path resolution
+    const dummyBase = "http://example.com";
+    const baseUrl = new URL(base || "/", dummyBase);
+    
+    // Resolve each path segment relative to the previous one
+    let currentUrl = baseUrl;
+    for (const path of paths) {
+        currentUrl = new URL(path, currentUrl);
+    }
+    
+    // Return the pathname (which includes the leading slash)
+    return currentUrl.pathname;
+}
+
 export const mapToObj = <T, K extends string, V>(
     arr: T[],
     fn: (item: T) => [K, V],

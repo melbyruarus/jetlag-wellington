@@ -10,6 +10,8 @@ import {
 } from "@/lib/context";
 import { safeUnion } from "@/maps/geo-utils";
 
+import { joinUrlPath } from "@/lib/utils";
+
 import { cacheFetch } from "./cache";
 import { LOCATION_FIRST_TAG, OVERPASS_API } from "./constants";
 import type {
@@ -123,7 +125,7 @@ out geom;
 
 export const fetchCoastline = async () => {
     const response = await cacheFetch(
-        import.meta.env.BASE_URL + "/coastline50.geojson",
+        joinUrlPath(import.meta.env.BASE_URL, "coastline50.geojson"),
         "Fetching coastline data...",
         CacheType.PERMANENT_CACHE,
     );
