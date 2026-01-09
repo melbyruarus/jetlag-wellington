@@ -26,6 +26,7 @@ import {
     hidingRadius,
     hidingRadiusUnits,
     includeDefaultStations as includeDefaultStationsAtom,
+    initializeDefaultStations,
     isLoading,
     leafletMapContext,
     mergeDuplicates as mergeDuplicatesAtom,
@@ -178,6 +179,11 @@ export const ZoneSidebar = () => {
 
         geoJsonLayer.addTo(map);
     };
+
+    // Initialize default stations on mount if none are set
+    useEffect(() => {
+        initializeDefaultStations();
+    }, []);
 
     useEffect(() => {
         if (!map || isLoading.get()) return;

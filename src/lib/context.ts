@@ -3,6 +3,7 @@ import type { FeatureCollection, MultiPolygon, Polygon } from "geojson";
 import type { Map } from "leaflet";
 import { atom, computed } from "nanostores";
 
+import { joinUrlPath } from "@/lib/utils";
 import type {
     AdditionalMapGeoLocations,
     CustomStation,
@@ -137,6 +138,28 @@ export const customStations = persistentAtom<CustomStation[]>(
         decode: JSON.parse,
     },
 );
+
+// Initialize default stations on first load if customStations is empty
+export const initializeDefaultStations = async () => {
+    const currentStations = customStations.get();
+    // Only initialize if no custom stations are already set
+    if (currentStations.length === 0) {
+        try {
+            const response = await fetch(
+                joinUrlPath(import.meta.env.BASE_URL, "stations.json"),
+            );
+            if (response.ok) {
+                const data = await response.json();
+                
+                // Direct CustomStation[] format
+                customStations.set(data as CustomStation[]);
+            }
+        } catch (error) {
+            // Silently fail if default stations file doesn't exist
+            console.debug("No default stations file found, skipping initialization");
+        }
+    }
+};
 export const mergeDuplicates = persistentAtom<boolean>(
     "removeDuplicates",
     false,
@@ -161,13 +184,13 @@ export const animateMapMovements = persistentAtom<boolean>(
         decode: JSON.parse,
     },
 );
-export const hidingRadius = persistentAtom<number>("hidingRadius", 0.5, {
+export const hidingRadius = persistentAtom<number>("hidingRadius", 0.4, {
     encode: JSON.stringify,
     decode: JSON.parse,
 });
 export const hidingRadiusUnits = persistentAtom<Units>(
     "hidingRadiusUnits",
-    "miles",
+    "kilometers",
     {
         encode: JSON.stringify,
         decode: JSON.parse,
