@@ -27,6 +27,7 @@ import { cn } from "@/lib/utils";
 import {
     determineMatchingBoundary,
     findMatchingPlaces,
+    loadWellingtonPlaces,
 } from "@/maps/questions/matching";
 import {
     determineUnionizedStrings,
@@ -222,9 +223,11 @@ export const MatchingQuestionComponent = ({
                             data.type === "library-full" ||
                             data.type === "golf_course-full" ||
                             data.type === "diplomatic-full" ||
-                            data.type === "park-full"
+                            data.type === "park-full" ||
+                            data.type === "peak-full" ||
+                            data.type === "railway-full"
                         ) {
-                            (data as any).geo = await findMatchingPlaces(data);
+                            (data as any).geo = await loadWellingtonPlaces(data);
                         } else {
                             (data as any).geo = [];
                             toast.info("Please draw the points on the map.");
@@ -326,10 +329,12 @@ export const MatchingQuestionComponent = ({
                                         data.type === "library-full" ||
                                         data.type === "golf_course-full" ||
                                         data.type === "diplomatic-full" ||
-                                        data.type === "park-full"
+                                        data.type === "park-full" ||
+                                        data.type === "peak-full" ||
+                                        data.type === "railway-full"
                                     ) {
                                         (data as any).geo =
-                                            await findMatchingPlaces(data);
+                                            await loadWellingtonPlaces(data);
                                     } else {
                                         (data as any).geo = [];
                                         toast.info(

@@ -16,6 +16,7 @@ import {
     mapGeoLocation,
     polyGeoJSON,
 } from "@/lib/context";
+import { joinUrlPath } from "@/lib/utils";
 import {
     findAdminBoundary,
     findPlacesInZone,
@@ -31,6 +32,26 @@ import type {
     HomeGameMatchingQuestions,
     MatchingQuestion,
 } from "@/maps/schema";
+
+export const loadWellingtonPlaces = async (question: MatchingQuestion) => {
+    const questionType = question.type as string;
+    const fileSuffix = questionType.split("-")[0];
+    const filename = `${fileSuffix}.geojson`;
+    
+    const response = await fetch(
+        joinUrlPath(import.meta.env.BASE_URL, filename),
+    );
+    const geojson: FeatureCollection<Point> = await response.json();
+
+    return geojson.features
+        .filter((feature) => feature.geometry.type === "Point")
+        .map((feature) => {
+            const [lng, lat] = feature.geometry.coordinates;
+            return turf.point([lng, lat]);
+        });
+
+    return [];
+};
 
 export const findMatchingPlaces = async (question: MatchingQuestion) => {
     switch (question.type) {
@@ -223,8 +244,10 @@ export const determineMatchingBoundary = _.memoize(
             case "golf_course-full":
             case "diplomatic-full":
             case "park-full":
+            case "peak-full":
+            case "railway-full":
             case "custom-points": {
-                const data = await findMatchingPlaces(question);
+                const data = await loadWellingtonPlaces(question);
 
                 const voronoi = geoSpatialVoronoi(data);
                 const point = turf.point([question.lng, question.lat]);
